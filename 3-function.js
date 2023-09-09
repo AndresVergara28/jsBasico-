@@ -27,7 +27,10 @@ function saludarEstudiante(estudiante) {
 
 function suma(a,b) {  // está funcion recibe 2 parámetros, que se convierten en un placeholder de valores que se pueden utilizar dentro de la función.
     var resultado = a + b; 
-}
+    return resultado;
+} 
+
+suma(9,10);
 
 // Return, cómo regresamos un valor con una function. 
 
